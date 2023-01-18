@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # [Social - Academy](https://social-academy.studio/) 👨‍🎓👩‍🎓
 
 <code><img height="120" src="https://avatars.githubusercontent.com/u/71903284?s=400&u=161a2fb4331108f6cd36c8a78476e80bb64f1870&v=4"/></code>
@@ -15,7 +15,5 @@ Convertirnos en una plataforma referente en Latinoamérica en el ámbito de la r
 Social Academy ofrece a los estudiantes una biblioteca virtual en la que puedan encontrar información, pertinente para ellos y adaptada a su contexto, compartida por otros usuarios. Brindando, además, cursos que los ayuden a desarrollarse académicamente. Facilitando la obtención de asesorías académicas entre usuarios por medio de foros académicos.
 
 https://social-academy.studio/
-=======
-# PaginaWebTest
-Prueba de configuracion de git hub pages
->>>>>>> c3dba01d50cb10f9ab79833a49d200dd1fe9251a
+
+# Sugerencias
