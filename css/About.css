@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    text-size-adjust: auto;
+}
+
+#banner{
+    padding-top: 8vw;
+    text-align: center;
+}
+
+.Cabecera{
+    display: flexbox;
+    justify-content: center;
+    padding-top: 2%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.Bienvenida{
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    color: #24345F;
+    font-size: 220%;
+    font-weight: 500;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-left: 4%;   
+    padding-bottom: 2%;
+}
+
+.Imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Encabezado{
+    text-align: center;
+    font-size: 230%;
+    color:  #28709c;
+    font-family: 'Montserrat', serif;
+}
+
+.Info{
+    text-align: justify;
+    font-size: 130%;
+    line-height: 150%;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-weight: 500;
+    padding-left: 3%;  
+}
+
+.Conocenos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 4%;
+}
+
+.Equipo{
+    width: 50%;
+}
+
+.Encabezado2{
+    text-align: center;
+    color:  #DB255D;
+    font-family: 'Montserrat', serif;
+    font-size: 180%;
+}
+
+.Info2{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    line-height: 150%;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 140%;
+    color: #24345F;
+}
+
+.Team{
+    width: 50%;
+}
+
+.Estadisticas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #24345F;
+}
+
+.Logros{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icono{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #24345F;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.Sinopsis{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo{
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Montserrat', serif;
+    color: #ffffff;
+}
+
+.Descripcion{
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: normali;
+}
+
+
+@media (max-width: 980px){
+    .Conocenos{
+        display: flex;
+        flex-direction: column;
+    }
+    .Equipo{
+        width: 100%;
+    }
+    
+    
+    .Team{
+        width: 100%;
+    }
+
+    
+    .Encabezado{
+        font-size: 230%;
+    }
+
+    .Info{
+        font-size: 150%;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    .Bienvenida{
+        font-size: 120%;
+    }
+
+    .Encabezado, .Encabezado2{
+        font-size: 180%;
+    }
+
+    .Info, .Info2{
+        font-size: 130%;
+    }
+
+    .Titulo{
+
+        font-size: 150%;
+    }
+
+    .Descripcion{
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 580px){
+    .Bienvenida{
+        font-size: 60%;
+    }
+
+    .Encabezado{
+        font-size: 100%;
+    }
+
+    
+    .Encabezado2{
+        font-size: 100%;
+    }
+    .Info, .Info2{
+        font-size: 90%;
+    }
+
+    .Titulo{
+
+        font-size: 70%;
+    }
+
+    .Descripcion{
+        font-size: 50%;
+    }
+
+
+    .Equipo{
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .Conocenos{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Team{
+        width: 100%;
+    }
+    #banner{
+        padding-top: 25vw;
+    }
+}
+
+@media (max-width: 450px){
+    #banner{
+        padding-top: 35vw;
+    }
+}
