@@ -14,3 +14,5 @@ Convertirnos en una plataforma referente en Latinoamérica en el ámbito de la r
 Social Academy ofrece a los estudiantes una biblioteca virtual en la que puedan encontrar información, pertinente para ellos y adaptada a su contexto, compartida por otros usuarios. Brindando, además, cursos que los ayuden a desarrollarse académicamente. Facilitando la obtención de asesorías académicas entre usuarios por medio de foros académicos.
 
 https://social-academy.studio/
+
+# Sugerencias
